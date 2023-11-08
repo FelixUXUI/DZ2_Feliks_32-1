@@ -22,7 +22,7 @@ switch (true) {
   case temperature >= 26 && temperature < 33:
     feeling = "Тепло";
     break;
-  default:Ы
+  default:
     feeling = "Жарко";
 }
 
