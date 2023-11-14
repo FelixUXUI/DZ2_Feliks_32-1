@@ -23,7 +23,7 @@ switch (true) {
     feeling = "Тепло";
     break;
   default:
-    feeling = "Жарко";
+    feeling = "некорректная температура";
 }
 
 console.log(`Ощущение при температуре ${temperature}°C: ${feeling}`);
