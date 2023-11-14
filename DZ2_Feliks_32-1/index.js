@@ -22,6 +22,9 @@ switch (true) {
   case temperature >= 26 && temperature < 33:
     feeling = "Тепло";
     break;
+  case temperature < 33:
+    feeling = "Жарко";
+    break;
   default:
     feeling = "некорректная температура";
 }
